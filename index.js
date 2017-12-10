@@ -1,3 +1,7 @@
+window.setImmediate = require('timers').setImmediate;
+window.net = require('net')
+// require('smtpconnection');
+
 const bulk = require('bulk-require')
 
 module.exports = {
